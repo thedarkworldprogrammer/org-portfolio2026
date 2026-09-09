@@ -80,7 +80,7 @@ const ContactForm = () => {
         setStatus("loading");
         try {
             const response = await fetch(
-                "http://localhost:5000/api/contact",
+                "https://org-portfolio2026.onrender.com//api/contact",
                 {
                     method: "POST",
 
